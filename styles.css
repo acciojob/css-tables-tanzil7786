@@ -1,19 +1,28 @@
-/*  your css code here. If applicable */
-body,html{
-	padding:0px;
-	margin:0px;
+/* styles.css */
+
+body, html {
+    padding: 0;
+    margin: 0;
 }
-table{
-	font-size:25px;
+
+table {
+    font-size: 25px;
+	width: 100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
 }
-td ,th{
-	border : 1px solid #ccc;
-	border-radius:5px;
-	padding:8px;
+
+td, th {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
 }
-tr:nth-child(even){
-	background-color:#ffffff;
+
+tr:nth-child(even) {
+    background-color: #ffffff;
 }
-tr:nth-child(odd){
-	background-color:rgb(242, 242, 242)
+
+tr:nth-child(odd) {
+    background-color: rgb(242, 242, 242);
 }
