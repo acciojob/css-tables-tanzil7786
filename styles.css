@@ -19,10 +19,10 @@ td, th {
     padding: 8px;
 }
 
-tr:nth-child(even) {
-    background-color: #ffffff;
+tr:nth-child(odd) td{
+    background-color: rgb(242, 242, 242);
 }
 
-tr:nth-child(odd) {
-    background-color: rgb(242, 242, 242);
+tr:nth-child(even) td{
+    background-color: rgb(255, 255, 255);
 }
